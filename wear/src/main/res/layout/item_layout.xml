@@ -1,0 +1,26 @@
+<com.yupiigames.wearablelistview.ItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp">
+
+    <android.support.wearable.view.CircledImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        app:circle_border_color="@color/black"
+        app:circle_border_width="@dimen/image_border"
+        app:circle_radius="@dimen/image_radio"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Texto del Item" />
+</com.yupiigames.wearablelistview.ItemView>

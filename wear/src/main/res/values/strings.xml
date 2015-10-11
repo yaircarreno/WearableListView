@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WearableListView</string>
+    <string name="content_notification">Showing option </string>
+</resources>
